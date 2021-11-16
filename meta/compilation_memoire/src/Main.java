@@ -20,7 +20,7 @@ public class Main {
     public static void main(String[] args) {
         List<Voiture> mesVoitures = new ArrayList<Voiture>();
         ajoutVoituresInstanciation(mesVoitures);
-        //ajoutVoituresReflexion(mesVoitures);
+        ajoutVoituresReflexion(mesVoitures);
         ajoutVoituresMeta(mesVoitures);
         System.out.println("EEEEEE");
 
