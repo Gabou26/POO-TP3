@@ -20,7 +20,7 @@ public class VoitureFactory {
     public static Voiture buildVoiture(ModeConstruction mode, boolean sport, int vitesse) {
         switch (mode) {
             case META:
-                return VoitureFactoryMetaHelper.constructMeta("MetaVoituree", sport, vitesse);
+                return VoitureFactoryMetaHelper.constructMeta("MetaVoiture", sport, vitesse);
             case INSTANCIATION:
                 return constructInstance(sport, vitesse);
             case REFLEXION:

@@ -22,7 +22,6 @@ public class Main {
         ajoutVoituresInstanciation(mesVoitures);
         ajoutVoituresReflexion(mesVoitures);
         ajoutVoituresMeta(mesVoitures);
-        System.out.println("EEEEEE");
 
         try {
             int x = 0;
